@@ -1,0 +1,16 @@
+/* Chrome, Safari, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { /*Премахване на стрелките от поле за попълване от тип Number */
+
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+/* Firefox */
+input[type=number] { /*Премахване на стрелките от поле за попълване от тип Number */
+    -moz-appearance: textfield;
+}
+#broker { /*Скриване на полетата за регистрация на брокер*/
+    display: none;
+
+}
